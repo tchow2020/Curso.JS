@@ -1,0 +1,76 @@
+{
+    "nacional":{
+        "nome":"Trevor Belmont",
+        "cpf":14376299464,
+        "data_nascimento":"2001-10-04",
+        "rg":145236875,
+        "uf_rg":"AL",
+        "passaporte":"",
+        "nome_mae":"Maria Fulana da Silva"
+    },
+
+    "criminal_local": {
+        "nome": "Trevor Belmont",
+        "cpf": 25127078066,
+        "data_nascimento": "2001-10-04",
+        "rg": "145236875",
+        "uf_rg": "AL",
+        "nome_mae": "Maria Fulana da Silva",
+        "data_ocorrencia": "2001-10-04",
+        "estado": "AL"
+    },
+
+    "rdo":{
+        "nome":"Trevor Belmont",
+        "cpf":14376299464,
+        "data_nascimento":"2001-10-04",
+        "rg":145236875,
+        "uf_rg":"AL",
+        "nome_mae":"Maria Fulana da Silva",
+        "estados":[
+            "AL",
+            "RS"
+        ]
+    },
+
+    "lista_resultados_emitidos":[
+        {
+            "type":"rdo",
+            "nome":"Trevor Belmont",
+            "cpf":14376299464,
+            "data_nascimento":"2001-10-04",
+            "rg":145236875,
+            "uf_rg":"AL",
+            "nome_mae":"Maria Fulana da Silva",
+            "estados":[
+                "AL",
+                "RS"
+            ],
+            "resposta":"resposta da fonte "
+        }, 
+        {
+            "type":"criminal_local",
+            "nome": "Trevor Belmont",
+            "cpf": 25127078066,
+            "data_nascimento": "2001-10-04",
+            "rg": "145236875",
+            "uf_rg": "AL",
+            "nome_mae": "Maria Fulana da Silva",
+            "data_ocorrencia": "2001-10-04",
+            "estado": "AL",
+            "resposta":"resposta da fonte "
+        },
+        {
+            "type":"nacional",
+            "nome":"Trevor Belmont",
+            "cpf":14376299464,
+            "data_nascimento":"2001-10-04",
+            "rg":"145236875",
+            "uf_rg":"AL",
+            "passaporte":"68456156489",
+            "nome_mae":"Maria Fulana da Silva",
+            "resposta":"resposta da fonte "
+        }
+    ]
+
+}

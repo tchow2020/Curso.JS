@@ -1,0 +1,12 @@
+<!-- Cadastro de empresas (clientes)
+Cadastro e gestão de usuário por empresa (regra de acesso)
+Ambiente web (Interno e Externo) para solicitação de pesquisas e gestão dos resultados
+- Formulário de pesquisas (antecedentes nacional, criminal local, RDO) (Externo)
+- Lista de resultados emitidos (Externo)
+- Formulários de respostas (interno)
+API de integração
+- solicitação de pesquisa
+- envio do resultado
+Configuração do banco de dados
+- armazenamento dos resultados
+- regra de reaproveitamento para pesquisas Vérttice -->
