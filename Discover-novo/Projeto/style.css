@@ -47,6 +47,8 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 16px;
+
+    padding: 24px 0;
 }
 
 ul li a{
@@ -76,4 +78,27 @@ ul li a{
 ul li a:hover {
     background: rgba(255, 255, 255, 0.5);
     border: 1.5px solid white;
+}
+
+#social-links{
+    display: flex;
+    justify-content: center;
+
+    padding: 24px 0;
+
+    font-size: 24px;
+}
+
+#social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+
+    transition: all 0.2;
+}
+
+#social-links a:hover{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
 }
