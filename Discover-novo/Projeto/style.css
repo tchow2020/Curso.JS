@@ -6,12 +6,11 @@
 
 :root{
     --text-color: white;
+    --bg-url: url('./assets/bg-desktop-light.jpg')
 }
 
-body * {
-    font-family: "Inter", sans-serif;
-    color: #ffff;
-    box-sizing: border-box;
+.light{
+    --text-color: black;
 }
 
 body{
@@ -19,6 +18,12 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+}
+
+body * {
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
+    box-sizing: border-box;
 }
 
 #container{ 
@@ -81,7 +86,7 @@ ul li a{
 
 ul li a:hover {
     background: rgba(255, 255, 255, 0.5);
-    border: 1.5px solid white;
+    border: 1.5px solid var(--text-color);
 }
 
 #social-links{
