@@ -50,7 +50,8 @@ body * {
 }
 
 #profile img{
-    width: 300px;
+    width: 330px;
+    height: 250px;
     /* border: solid 1px green; */
     border-radius: 100px;
 }
@@ -63,7 +64,6 @@ body * {
 }
 
 /* switch */
-
 #switch{
     /* border: 1px solid red; */
     position: relative;
